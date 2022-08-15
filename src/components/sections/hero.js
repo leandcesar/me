@@ -59,9 +59,17 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  const one = <h1>Oi, meu nome é</h1>;
+  const one = (
+    <h1>
+      Oi{' '}
+      <span role="img" aria-label="Wave">
+        👋
+      </span>
+      , meu nome é
+    </h1>
+  );
   const two = <h2 className="big-heading">Leandro César.</h2>;
-  const three = <h3 className="big-heading">Sou desenvolvedor Python.</h3>;
+  const three = <h3 className="big-heading">Sou Python DevOps.</h3>;
   const four = (
     <>
       <p>
@@ -70,13 +78,13 @@ const Hero = () => {
           UNIFEI
         </a>
         , especializado em desenvolvimento de software, busco automatizar processos com programação.
-        Atualmente focado em chatbots.
+        Atualmente focado em Python.
       </p>
     </>
   );
   const five = (
-    <Link className="email-link" to="/pills">
-      Confira as pílulas
+    <Link className="email-link" href="https://dev.to/leandcesar">
+      Estou no dev.to
     </Link>
   );
 

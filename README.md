@@ -1,5 +1,7 @@
 <div align="center">
-  <img alt="Logo" src="https://raw.githubusercontent.com/leandcesar/me/main/src/images/logo.png" width="100" />
+  <a href="https://leandcesar.github.io/me/">
+  <img alt="Logo" src="https://raw.githubusercontent.com/leandcesar/me/main/src/images/logo.png" width="100"/>
+  </a>
 </div>
 <h1 align="center">
   Leandro César

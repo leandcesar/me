@@ -1,5 +1,5 @@
 ---
-date: '2019-04-01'
+date: '2019-07-31'
 title: 'Consultor aprendiz'
 company: 'Ball Corporation'
 location: 'Extrema, MG'

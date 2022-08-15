@@ -125,7 +125,14 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['Python 3', 'MySQL', 'RabbitMQ', 'Docker & Compose', 'AWS Lambda', 'AWS ECS'];
+  const skills = [
+    'Python 3',
+    'Flask / FastAPI',
+    'SQLAlchemy',
+    'MySQL',
+    'Docker',
+    'AWS (ECS, RDS, Lambdas)',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,29 +142,37 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Olá, meu nome é Leandro e minha paixão é simplificar e automatizar coisas com
-              programação. Meu interesse começou em 2015, quando descobri o mundo dos projetos de
-              robótica e decidi que seria a área que cursaria minha graduação.
+              Sou desenvolvedor, apaixonado por tecnologia e automatização. Iniciei minha jornada na
+              área da robótica em 2016, graças a minha graduação em Engenharia de Controle e
+              Automação. Desde então, percorri um vasto caminho ao longo de diversas linguagens e
+              tecnologias, como{' '}
+              <a href="https://en.wikipedia.org/wiki/C_(programming_language)">C</a>,{' '}
+              <a href="https://en.wikipedia.org/wiki/C%2B%2B">C++</a>,{' '}
+              <a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)">C#</a>,{' '}
+              <a href="https://en.wikipedia.org/wiki/Java_(programming_language)">Java</a> e{' '}
+              <a href="https://en.wikipedia.org/wiki/MATLAB">Matlab</a>.
             </p>
-
             <p>
-              Na graduação, tive contato com diversas áreas e participei de muitos projetos e
-              eventos, principalmente:{' '}
-              <a href="https://docs.microsoft.com/pt-br/cpp/c-language">C</a> e{' '}
-              <a href="https://docs.microsoft.com/pt-br/cpp/cpp">C++</a> para micro-controladores,{' '}
-              <a href="https://docs.microsoft.com/pt-br/dotnet/csharp/">C#</a> e{' '}
-              <a href="https://www.java.com/pt-BR/">Java</a> para interfaces gráficas,{' '}
-              <a href="https://www.mathworks.com/products/matlab">Matlab</a> para análise e
-              processamento de sinais, eletrônica e sistemas de controle.
+              Até que em 2018, encontrei o <a href="https://www.python.org/">Python</a> e venho me
+              aprofundando nas suas aplicações, bibliotecas e frameworks. Tenho trabalhado
+              diretamente com com bancos de dados relacionais (
+              <a href="https://www.mysql.com/">MySQL</a>,{' '}
+              <a href="https://www.postgresql.org/">PostgreSQL</a>),{' '}
+              <a href="https://redis.io/">Redis</a>, <a href="https://www.docker.com/">Docker</a>,{' '}
+              <a href="https://en.wikipedia.org/wiki/CI/CD">CI/CD</a>, e serviços da{' '}
+              <a href="https://aws.amazon.com/">AWS</a> (
+              <a href="https://aws.amazon.com/ecs/">ECS</a>,{' '}
+              <a href="https://aws.amazon.com/rds/">RDS</a>,{' '}
+              <a href="https://aws.amazon.com/lambda/">Lambdas</a>). Também desenvolvo{' '}
+              <a href="https://en.wikipedia.org/wiki/Representational_state_transfer">APIs REST</a>{' '}
+              com <a href="https://flask.palletsprojects.com/en/2.1.x/">Flask</a> e{' '}
+              <a href="https://fastapi.tiangolo.com/">FastAPI</a>.
             </p>
-
             <p>
-              Em 2018, tive contato com <a href="https://www.python.org/">Python</a>, que se tornou
-              meu foco principal e ampliou minhas aplicações para além da robótica, como APIs REST,
-              Cloud, contêineres, testes, design patterns e muito mais.
+              Estou sempre buscando novos desafios e soluções inovadoras! Estou ansioso para aplicar
+              minhas habilidades e conhecimentos em projetos desafiadores e interessantes na área da
+              tecnologia.
             </p>
-
-            <p>Aqui estão algumas tecnologias com as quais tenho trabalhado recentemente:</p>
           </div>
 
           <ul className="skills-list">
