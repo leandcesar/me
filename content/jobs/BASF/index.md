@@ -1,5 +1,5 @@
 ---
-date: '2019-08-01'
+date: '2019-12-31'
 title: 'Consultor aprendiz'
 company: 'BASF'
 location: 'Guaratinguetá, SP'

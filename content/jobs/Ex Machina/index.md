@@ -1,5 +1,5 @@
 ---
-date: '2017-03-01'
+date: '2019-12-31'
 title: 'Diretor técnico e desenvolvedor'
 company: 'Ex Machina'
 location: 'Itajubá, MG'
@@ -7,7 +7,7 @@ range: 'Março 2017 - Dezembro 2019'
 url: 'https://competicaotecnologica.unifei.edu.br/exmachina/'
 ---
 
-- Liderei, gerenciei e minitrei aulas de capacitação para membros das áreas técnicas de programação e eletrônica.
+- Liderei, gerenciei e ministrei aulas de capacitação para membros das áreas técnicas de programação e eletrônica.
 - Utilizei programação embarcada em PICs e [**Arduinos**](https://www.arduino.cc/) para o controle de uma prótese de membro superior e para leitura de sensores analógicos de eletromiografia; e [**MATLAB**](https://www.mathworks.com/products/matlab) para análise de sinais e projetos de filtros digitais.
 - Desenvolvi interfaces gráficas em [**Java**](https://www.java.com/pt-BR/) para aplicações em [**Raspberry Pi**](https://www.raspberrypi.com/).
 - Projetei circuitos eletrônicos e design de layout de PCIs para captação de sinais mioelétricos.

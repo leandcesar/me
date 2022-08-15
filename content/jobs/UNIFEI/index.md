@@ -1,5 +1,5 @@
 ---
-date: '2016-01-01'
+date: '2020-12-31'
 title: 'Engenharia de Controle e Automação'
 company: 'UNIFEI'
 location: 'Itajubá, MG'
