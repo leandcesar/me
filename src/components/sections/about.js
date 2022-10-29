@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['Python 3', 'MySQL', 'RabbitMQ', 'Docker & Compose', 'AWS Lambda', 'AWS ECS'];
+  const skills = ['Python 3', 'SQL', 'RabbitMQ', 'Docker & Compose', 'AWS Lambda', 'AWS ECS'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,26 +135,28 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Olá, meu nome é Leandro e minha paixão é simplificar e automatizar coisas com
-              programação. Meu interesse começou em 2015, quando descobri o mundo dos projetos de
-              robótica e decidi que seria a área que cursaria minha graduação.
+              Minha paixão é simplificar e automatizar coisas com programação. Meu interesse começou
+              em 2015, quando descobri o mundo da robótica e decidi que seria a área que cursaria
+              minha graduação.
             </p>
 
             <p>
-              Na graduação, tive contato com diversas áreas e participei de muitos projetos e
-              eventos, principalmente:{' '}
+              Conheci e me especializei em{' '}
               <a href="https://docs.microsoft.com/pt-br/cpp/c-language">C</a> e{' '}
               <a href="https://docs.microsoft.com/pt-br/cpp/cpp">C++</a> para micro-controladores,{' '}
               <a href="https://docs.microsoft.com/pt-br/dotnet/csharp/">C#</a> e{' '}
-              <a href="https://www.java.com/pt-BR/">Java</a> para interfaces gráficas,{' '}
-              <a href="https://www.mathworks.com/products/matlab">Matlab</a> para análise e
-              processamento de sinais, eletrônica e sistemas de controle.
+              <a href="https://www.java.com/pt-BR/">Java</a> para interfaces gráficas integradas com
+              banco de dados, <a href="https://www.mathworks.com/products/matlab">Matlab</a> para
+              análise e processamento de dados), e muito mais. Também participei de muitos projetos
+              acadêmicos e eventos tecnológicos (Campus Party e Hackathons)
             </p>
 
             <p>
               Em 2018, tive contato com <a href="https://www.python.org/">Python</a>, que se tornou
-              meu foco principal e ampliou minhas aplicações para além da robótica, como APIs REST,
-              Cloud, contêineres, testes, design patterns e muito mais.
+              meu foco principal desde então e ampliou meu campo de aplicações e estudos, como
+              Chatbots, APIs REST, Cloud (<a href="https://aws.amazon.com/">AWS</a> e{' '}
+              <a href="https://www.heroku.com/">Heroku</a>, principalmente),{' '}
+              <a href="https://www.docker.com/">Docker</a>, testes, design patterns e muito mais.
             </p>
 
             <p>Aqui estão algumas tecnologias com as quais tenho trabalhado recentemente:</p>

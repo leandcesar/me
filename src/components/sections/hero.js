@@ -59,9 +59,17 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  const one = <h1>Oi, meu nome é</h1>;
+  const one = (
+    <h1>
+      Oi{' '}
+      <span role="img" aria-label="Wave">
+        👋
+      </span>
+      , meu nome é
+    </h1>
+  );
   const two = <h2 className="big-heading">Leandro César.</h2>;
-  const three = <h3 className="big-heading">Sou desenvolvedor Python.</h3>;
+  const three = <h3 className="big-heading">Sou Python DevOps.</h3>;
   const four = (
     <>
       <p>

@@ -8,11 +8,11 @@ module.exports = {
     },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/leandcesar',
+      url: 'https://instagram.com/leandcesar',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/leandcesar',
+      url: 'https://linkedin.com/in/leandcesar',
     },
     {
       name: 'Twitter',
@@ -32,6 +32,10 @@ module.exports = {
     {
       name: 'Projetos',
       url: '/#projects',
+    },
+    {
+      name: 'Pílulas',
+      url: '/pills',
     },
     {
       name: 'Contato',
