@@ -60,9 +60,8 @@ const Contact = () => {
       <h2 className="title">Entre em contato</h2>
 
       <p>
-        Embora eu não esteja procurando novas oportunidades no momento, minha caixa de entrada está
-        sempre aberta. Se você tem uma pergunta ou quer me conhecer melhor, será um prazer responder
-        você!
+        Minha caixa de entrada está sempre aberta. Se você tiver uma pergunta ou quiser me conhecer
+        melhor, será um prazer respondê-lo!
       </p>
 
       <a className="email-link" href={`mailto:${email}?subject=Vi o seu portifólio`}>

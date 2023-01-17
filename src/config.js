@@ -7,16 +7,16 @@ module.exports = {
       url: 'https://github.com/leandcesar',
     },
     {
-      name: 'Instagram',
-      url: 'https://instagram.com/leandcesar',
-    },
-    {
       name: 'Linkedin',
       url: 'https://linkedin.com/in/leandcesar',
     },
     {
       name: 'Twitter',
       url: 'https://twitter.com/leandcesar',
+    },
+    {
+      name: 'Instagram',
+      url: 'https://instagram.com/leandcesar',
     },
   ],
 

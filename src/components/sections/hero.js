@@ -78,13 +78,13 @@ const Hero = () => {
           UNIFEI
         </a>
         , especializado em desenvolvimento de software, busco automatizar processos com programação.
-        Atualmente focado em chatbots.
+        Atualmente focado em Python.
       </p>
     </>
   );
   const five = (
-    <Link className="email-link" to="/pills">
-      Confira as pílulas
+    <Link className="email-link" href="https://dev.to/leandcesar">
+      Estou no dev.to
     </Link>
   );
 
